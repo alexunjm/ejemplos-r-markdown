@@ -14,31 +14,34 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 1. Productos Notables
 
-a.  $\left( \frac{2}{7}mn+\frac{1}{3}np \right) ^{3}$
 
-**Solución**
+**a.**  $\left( \frac{2}{7}mn+\frac{1}{3}np \right) ^{3}$
 
-Es una suma de cuadrados de la forma
+\begin{center}
+\textbf{\emph{Solución}}
+\end{center}
+
+Es una suma elevada a la 3 (o de grado 3) de la forma
 $$\left( a + b \right) ^{3} = a^3 + 3a^2b + 3ab^2 + b^3$$
 
 
 $$
 donde \left\{
 \begin{array}{l}
- a = \dfrac{2}{7}mn\\
+ a = \frac{2}{7}mn\\
  \\
- b = \dfrac{1}{3}np\\
+ b = \frac{1}{3}np\\
 \end{array}
 \right.
 $$
 
-$$\begin{array}{llcccccc} \left( \dfrac{2}{7}mn + \dfrac{1}{3}np \right) ^{3} &= \left( \dfrac{2}{7}mn \right)^3 &+& 3\left( \dfrac{2}{7}mn \right)^2 \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1}{3}np\right)^2 &+& \left(\dfrac{1}{3}np\right)^3\\
-&= \left( \dfrac{2^3}{7^3}m^3n^3 \right) &+& 3\left( \dfrac{2^2}{7^2}m^2n^2 \right) \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1^2}{3^2}n^2p^2\right) &+& \left(\dfrac{1^3}{3^3}n^3p^3\right) \\
-&= \left( \dfrac{2 \cdot 2 \cdot 2}{7 \cdot 7 \cdot 7}m^3n^3 \right) &+& 3\left( \dfrac{2 \cdot 2}{7 \cdot 7}m^2n^2 \right) \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1 \cdot 1}{3 \cdot 3}n^2p^2\right) &+& \left(\dfrac{1 \cdot 1 \cdot 1}{3 \cdot 3 \cdot 3}n^3p^3\right) \\
-&= \left( \dfrac{8}{343}m^3n^3 \right) &+& 3\left( \dfrac{4}{49}m^2n^2 \right) \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1}{9}n^2p^2\right) &+& \left(\dfrac{1}{27}n^3p^3\right) \\
-&= \dfrac{8}{343}m^3n^3 &+& \dfrac{\cancel{3} \cdot 4}{49}m^2n^2 \left(\dfrac{1}{\cancel{3}}np\right) &+& \dfrac{\cancel{3} \cdot 2}{7}mn \left(\dfrac{1}{\cancel{9}}n^2p^2\right) &+& \dfrac{1}{27}n^3p^3 \\
-&= \dfrac{8}{343}m^3n^3 &+& \dfrac{4}{49}m^2n^2np &+& \dfrac{2}{7}mn \left(\dfrac{1}{3}n^2p^2\right) &+& \dfrac{1}{27}n^3p^3 \\
-&= \dfrac{8}{343}m^3n^3 &+& \dfrac{4}{49}m^2n^2np &+& \dfrac{2}{21}mnn^2p^2 &+& \dfrac{1}{27}n^3p^3 \\
+$$\begin{array}{llcccccc} \left( \dfrac{2}{7}mn + \dfrac{1}{3}np \right) ^{3} &= \left( \dfrac{2}{7}mn \right)^3 &+& 3\left( \dfrac{2}{7}mn \right)^2 \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1}{3}np\right)^2 &+& \left(\dfrac{1}{3}np\right)^3\\[2ex]
+&= \left( \dfrac{2^3}{7^3}m^3n^3 \right) &+& 3\left( \dfrac{2^2}{7^2}m^2n^2 \right) \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1^2}{3^2}n^2p^2\right) &+& \left(\dfrac{1^3}{3^3}n^3p^3\right) \\[2ex]
+&= \left( \dfrac{2 \cdot 2 \cdot 2}{7 \cdot 7 \cdot 7}m^3n^3 \right) &+& 3\left( \dfrac{2 \cdot 2}{7 \cdot 7}m^2n^2 \right) \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1 \cdot 1}{3 \cdot 3}n^2p^2\right) &+& \left(\dfrac{1 \cdot 1 \cdot 1}{3 \cdot 3 \cdot 3}n^3p^3\right) \\[2ex]
+&= \left( \dfrac{8}{343}m^3n^3 \right) &+& 3\left( \dfrac{4}{49}m^2n^2 \right) \left(\dfrac{1}{3}np\right) &+& 3\left( \dfrac{2}{7}mn \right)\left(\dfrac{1}{9}n^2p^2\right) &+& \left(\dfrac{1}{27}n^3p^3\right) \\[2ex]
+&= \dfrac{8}{343}m^3n^3 &+& \dfrac{\cancel{3} \cdot 4}{49}m^2n^2 \left(\dfrac{1}{\cancel{3}}np\right) &+& \dfrac{\cancel{3} \cdot 2}{7}mn \left(\dfrac{1}{\cancel{9}}n^2p^2\right) &+& \dfrac{1}{27}n^3p^3 \\[2ex]
+&= \dfrac{8}{343}m^3n^3 &+& \dfrac{4}{49}m^2n^2np &+& \dfrac{2}{7}mn \left(\dfrac{1}{3}n^2p^2\right) &+& \dfrac{1}{27}n^3p^3 \\[2ex]
+&= \dfrac{8}{343}m^3n^3 &+& \dfrac{4}{49}m^2n^2np &+& \dfrac{2}{21}mnn^2p^2 &+& \dfrac{1}{27}n^3p^3 \\[2ex]
 &= \dfrac{8}{343}m^3n^3 &+& \dfrac{4}{49}n^3m^2p &+& \dfrac{2}{21}n^3p^2m &+& \dfrac{1}{27}n^3p^3 \\
 \end{array}$$
 
@@ -48,11 +51,83 @@ $$\begin{array}{c} \left( \dfrac{2}{7}mn + \dfrac{1}{3}np \right) ^{3} = \dfrac{
 \end{array}$$
 
 
-b.  $\left( \frac{1}{2}pq^2+\frac{2}{3}p^2q \right) ^{2}$
+**b.**  $\left( \frac{1}{2}pq^2+\frac{2}{3}p^2q \right) ^{2}$
 
-c.  $\left( \frac{2}{5}xn+\frac{1}{3}ny \right) ^{2}$
+\begin{center}
+\textbf{\emph{Solución}}
+\end{center}
 
-d.  $\left( \frac{5}{12}mq^3-\frac{1}{9}p^2q \right) ^{2}$
+Es una suma elevada a la 2 (o de grado 2) de la forma
+$$\left( a + b \right) ^{2} = a^2 + 2ab + b^2$$
+
+
+$$
+donde \left\{
+\begin{array}{l}
+ a = \frac{1}{2}pq^2\\
+ \\
+ b = \frac{2}{3}p^2q\\
+\end{array}
+\right.
+$$
+
+$$\begin{array}{llcccc} \left( \dfrac{1}{2}pq^2 + \dfrac{2}{3}p^2q \right) ^{2} &= \left( \dfrac{1}{2}pq^2 \right)^2 &+& 2\left( \dfrac{1}{2}pq^2 \right) \left( \dfrac{2}{3}p^2q \right) &+& \left( \dfrac{2}{3}p^2q \right)^2\\[2ex]
+&= \dfrac{1^2}{2^2}p^2q^{(2 \cdot 2)} &+& \dfrac{\cancel{2} \cdot 1 \cdot 2}{\cancel{2} \cdot 3}pq^2p^2q &+& \dfrac{2^2}{3^2}p^{(2 \cdot 2)}q^2 \\[2ex]
+&= \dfrac{1}{2 \cdot 2}p^2q^4 &+& \dfrac{2}{3}p^{(1+2)}q^{(2+1)} &+& \dfrac{4}{3 \cdot 3}p^4q^2 \\[2ex]
+&= \dfrac{1}{4}p^2q^4 &+& \dfrac{2}{3}p^3q^3 &+& \dfrac{4}{9}p^4q^2 \\
+\end{array}$$
+
+**c.**  $\left( \frac{2}{5}xn+\frac{1}{3}ny \right) ^{2}$
+
+\begin{center}
+\textbf{\emph{Solución}}
+\end{center}
+
+Es una suma elevada a la 2 (o de grado 2) de la forma
+$$\left( a + b \right) ^{2} = a^2 + 2ab + b^2$$
+
+
+$$
+donde \left\{
+\begin{array}{l}
+ a = \frac{2}{5}xn\\
+ \\
+ b = \frac{1}{3}ny\\
+\end{array}
+\right.
+$$
+
+$$\begin{array}{llcccc} \left( \dfrac{2}{5}xn + \dfrac{1}{3}ny \right)^{2} &= \left( \dfrac{2}{5}xn \right)^2 &+& 2\left( \dfrac{2}{5}xn \right) \left( \dfrac{1}{3}ny\right) &+& \left( \dfrac{1}{3}ny \right)^2\\[2ex]
+&= \dfrac{2^2}{5^2}x^2n^2 &+& \dfrac{2 \cdot 2 \cdot 1}{5 \cdot 3}xnny &+& \dfrac{1^2}{3^2}n^2y^2 \\[2ex]
+&= \dfrac{2 \cdot 2}{5 \cdot 5}x^2n^2 &+& \dfrac{4}{15}n^2xy &+& \dfrac{1 \cdot 1}{3 \cdot 3}n^2y^2 \\[2ex]
+&= \dfrac{4}{25}x^2n^2 &+& \dfrac{4}{15}n^2xy &+& \dfrac{1}{9}n^2y^2 \\[2ex]
+\end{array}$$
+
+**d.**  $\left( \frac{5}{12}mq^3-\frac{1}{9}p^2q \right) ^{2}$
+
+\begin{center}
+\textbf{\emph{Solución}}
+\end{center}
+
+Es una resta elevada a la 2 (o diferencia de grado 2) de la forma
+$$\left( a-b \right) ^{2} = a^2 - 2ab + b^2$$
+
+
+$$
+donde \left\{
+\begin{array}{l}
+ a = \frac{5}{12}mq^3\\
+ \\
+ b = \frac{1}{9}p^2q\\
+\end{array}
+\right.
+$$
+
+$$\begin{array}{llcccc} \left( \dfrac{5}{12}mq^3 - \dfrac{1}{9}p^2q \right) ^{2} &= \left( \dfrac{5}{12}mq^3 \right)^2 &-& 2\left( \dfrac{5}{12}mq^3 \right) \left( \dfrac{1}{9}p^2q \right) &+& \left( \dfrac{1}{9}p^2q \right)^2 \\[2ex]
+&= \dfrac{5^2}{12^2}m^2q^{(3 \cdot 2)} &-& \dfrac{\cancel{2} \cdot 5 \cdot 1}{\cancel{12} \cdot 9}mq^3p^2q &+& \dfrac{1^2}{9^2}p^{(2 \cdot 2)}q^2 \\[2ex]
+&= \dfrac{5 \cdot 5}{12 \cdot 12}m^2q^6 &-& \dfrac{1 \cdot 5 \cdot 1}{6 \cdot 9}mq^{(3 + 1)}p^2 &+& \dfrac{1 \cdot 1}{9 \cdot 9}p^4q^2 \\[2ex]
+&= \dfrac{25}{144}m^2q^6 &-& \dfrac{5}{54}q^4p^2m &+& \dfrac{1 \cdot 1}{81}p^4q^2 \\[2ex]
+\end{array}$$
 
 e.  $\left( \frac{3}{7}xnm+\frac{2}{9}nmy \right) ^{2}$
 
